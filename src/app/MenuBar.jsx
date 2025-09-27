@@ -18,7 +18,7 @@ const Menu = () => {
             <li key={path}>
               <Link
                 href={path}
-                className={`p-2 rounded-3xl hover:bg-[#3dd0f5] hover:text-white ease-in-out hover:scale-110 ${
+                className={`p-2 rounded-3xl hover:bg-[#2C497F] hover:text-white ease-in-out hover:scale-110 ${
                   pathname === path
                     ? "bg-[#aca8ad]  text-white"
                     : "text-gray-700"

@@ -3,7 +3,7 @@ import Menu from "./MenuBar";
 export default function Hero() {
   return (
     <div className="flex flex-col items-center justify-center w-[100%] min-h-50 text-center pt-50">
-        <h1 className="text-8xl">
+        <h1 className="text-8xl mb-10">
             Build your future.
         </h1>
         <Menu />

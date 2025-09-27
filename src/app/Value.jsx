@@ -1,6 +1,6 @@
-export default function Services() {
+export default function Value() {
     return (
-        <div className="flex flex-col justify-evenly items-center w-full pt-15">
+        <div className="flex flex-col justify-evenly items-center w-full pt-5">
             <div className="flex flex-col items-center text-center p-5">
                 <h2 className="text-3xl font-medium">Beautiful</h2>
                 <p>Your website is the first impression of your business. We design and build modern, responsive sites that showcase your brand, engage your audience, and convert visitors into customers.</p>
@@ -13,7 +13,6 @@ export default function Services() {
                 <h2 className="text-3xl font-medium">Connected</h2>
                 <p>Professional, domain-branded email addresses that enhance credibility, streamline communication, and keep your business connected.</p>
             </div>
-
         </div>
     )
 }

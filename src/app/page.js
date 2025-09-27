@@ -5,10 +5,12 @@ import Hero from "@/app/Hero";
 import Value from "./Value";
 import Services from "./Services";
 import Image from "next/image";
+import ScrollButton from "./ScrollButton";
 
 export default function Home() {
   return (
     <>
+    <ScrollButton />
     <div className="absolute w-full h-[400px]">
       <div className="relative w-full h-full 
         [mask-image:linear-gradient(to_bottom,black,transparent)] 
