@@ -8,7 +8,7 @@ export default function AnimatedInfoCard({ title, content, children }) {
   return (
     <div className="mt-10 max-w-100 mx-auto">
       {/* Base card */}
-      <div className="flex flex-col items-center justify-evenly min-h-40 p-6  text-center text-xl bg-white backdrop-blur-lg border border-gray-400 rounded-3xl shadow-2xl dark:bg-gray-900">
+      <div className="flex flex-col items-center justify-evenly min-h-75 p-6  text-center text-xl bg-white backdrop-blur-lg border border-gray-400 rounded-2xl shadow-2xl dark:bg-gray-900">
         <h1 className="text-2xl font-semibold">{title}</h1>
         <p className="pt-4">{content}</p>
         <div className="text-center mt-2 cursor-pointer" onClick={() => setOpen(!open)}>

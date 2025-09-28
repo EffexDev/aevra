@@ -2,7 +2,7 @@ import AnimatedInfoCard from "./AnimatedInfoCard";
 
 export default function Services() {
     return (
-        <div className="flex flex-col items-center justify-center w-full lg:flex-row lg:align-top lg:pl-30 lg:pr-30">
+        <div className="flex flex-col justify-top items-top mt-20 lg:flex-row lg:align-top lg:pl-30 lg:pr-30">
             <AnimatedInfoCard title="Website Development – $450" content='Beautiful – A modern, responsive 1–3 page website tailored to your brand. Perfect for showcasing your business online.'>
                 <ul>
                     <li className="text-xl pb-2">What's Included:</li>
@@ -21,6 +21,13 @@ export default function Services() {
                     <li>- Stable uptime</li>
                     <li>- SSL certificate for security</li>
                     <li>- Easy domain integration</li>
+                </ul>    
+                </AnimatedInfoCard>
+                    <AnimatedInfoCard title="Emails - $10 for 3" content='Set your business apart with reliable, secure email that carries your domain name.'>
+                <ul>
+                    <li className="text-xl pb-2">What's Included:</li>
+                    <li>- 3 Domain branded emails</li>
+                    <li>- Email routing</li>
                 </ul>    
                 </AnimatedInfoCard>
         </div>

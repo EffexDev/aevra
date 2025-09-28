@@ -12,7 +12,7 @@ const Menu = () => {
         <ul className="flex space-x-4 ">
           {[
             { name: "Home", path: "/" },
-            { name: "Projects", path: "/projects" },
+            { name: "Technologies", path: "/technologies" },
             { name: "Contact", path: "/contact" },
           ].map(({ name, path }) => (
             <li key={path}>
