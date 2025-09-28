@@ -22,3 +22,7 @@ body {
   color: var(--foreground);
   font-family:'Times New Roman', Times, serif;
 }
+
+/* div {
+  border: 1px solid red;
+} */

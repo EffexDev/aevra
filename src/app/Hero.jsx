@@ -1,4 +1,5 @@
 import Menu from "./MenuBar";
+import Socials from "./Socials";
 
 export default function Hero() {
   return (
@@ -7,6 +8,7 @@ export default function Hero() {
             Build your future.
         </h1>
         <Menu />
+        <Socials />
         <div>
           <p className="p-10"> 
             A strong online presence makes the difference between being overlooked and being unforgettable
