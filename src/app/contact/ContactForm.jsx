@@ -25,7 +25,7 @@ const ContactForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="w-full sm:w-200 mx-auto p-6 text-black space-y-6">
+    <form onSubmit={handleSubmit} className="w-[98%] sm:w-[98%] mx-auto p-6 text-black space-y-6">
     <div className="space-y-1 pb-2">
       <label>
         <p className='text-black dark:text-white'>Business Name <span className="text-red-500">*</span></p>
