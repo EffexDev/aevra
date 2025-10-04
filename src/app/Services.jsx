@@ -2,7 +2,7 @@ import AnimatedInfoCard from "./AnimatedInfoCard";
 
 export default function Services() {
     return (
-        <div className="flex flex-col justify-top items-top mt-20 lg:flex-row lg:align-top lg:pl-30 lg:pr-30">
+        <div className="flex flex-col justify-top items-top mt-20 xl:flex-row lg:align-top lg:pl-30 lg:pr-30">
             <AnimatedInfoCard title="Website Development – $450" content='Beautiful – A modern, responsive 1–3 page website tailored to your brand. Perfect for showcasing your business online.'>
                 <ul>
                     <li className="text-xl pb-2">What's Included:</li>
